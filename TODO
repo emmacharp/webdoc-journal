@@ -1,0 +1,6 @@
+- Aller dans REM-TO-PX pour vérifier comment inclure dynamiquement la grosseur de caractère de base au lieu de le hardcoder à «16»
+
+- Enlever la fonctionnalité de création de PNG dans REM-TO-PX
+
+- Regarder ce qui est possible de faire comme testing CSS automatisé
+-- [Hardy](https://npmjs.org/package/hardy) par exemple

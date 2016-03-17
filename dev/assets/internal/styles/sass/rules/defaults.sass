@@ -1,0 +1,83 @@
+*::selection 
+	background: #000 
+	color: #fff 
+	text-shadow: none 
+
+html
+	font-size: $basefont
+	@media #{$desktop}
+		font-size: $basefont * .875
+	@media #{$small}
+		font-size: $basefont * .675
+	@media #{$medium}
+		font-size: $basefont * .375
+	@media #{$large}
+		font-size: $maxfont
+	// +responsive-type(1);
+
+body
+	font-family: $current
+	color: $type
+	margin: 0
+	line-height: rows(1)
+	min-height: 100%
+	width: $bodywidth
+ 	// +canvas($alignment)
+
+#{$txt-all}
+	font-size: inherit
+	color: inherit
+	font-weight: inherit
+	line-height: inherit
+	margin: 0
+	margin-bottom: rows(1)
+	&:last-child 
+		margin-bottom: 0 
+
+button
+	text-align: center
+	background-color: inherit
+	border: inherit
+	padding: 0
+  
+ul
+	padding-left: 0
+	list-style: none
+
+li
+	position: relative
+
+i.icon
+	font-style: normal
+
+a, 
+a:hover, 
+a:visited 
+	color: inherit 
+
+sup 
+	vertical-align: super
+	font-size: .48375em 
+	line-height: rows(.75)
+
+nav	a 
+	text-decoration: none 
+	display: inline-block
+
+img 
+	user-select: none
+	max-width: 100%
+
+.object, .element
+	@media #{$mobile}
+		position: relative
+	@media #{$small} 
+		+_box
+	box-sizing: border-box
+	line-height: rows(1)
+
+.container
+	+_container
+
+.group
+	width: 100%

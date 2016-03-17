@@ -1,0 +1,429 @@
+# economia.io
+#### Journal de bord
+
+---
+
+##### 15.01.2016 _19:42_
+__[Dompe d'idées]__ On constate désintérêt. Désintérêt associé aux mathématiques et à l'industrie. Confusion entre finance et économique. Étrangeté de l'économique. Économique instinctive. Y remédier. Nourrir l'intérêt. Nouvelles technologies interactives. 
+
+Portabilité. Évolutivité. Métaphores. Représentations. Activités. Modules. Liens. Facilité.
+
+_Un_ «  [Cosmos](http://channel.nationalgeographic.com/cosmos-a-spacetime-odyssey/) » _interactif pour l'économique ?_ Exposition des multiples dimensions des concepts abordés (politique, quotidienne, humaine, sociale, historique).
+
+---
+
+##### 16.01.2016 _6:25_
+__[Dompe d'idées]__ Les principes du design d'information et du design interactif évoqués par [Edward Tufte](http://www.edwardtufte.com/tufte/) et [Bret Victor](http://worrydream.com/) seront appliqués. Ils assureront une conception optimale pour une communication efficace des informations.
+
+__Enjeu.__ redonner accès à une information mal-aimée.
+__Interaction.__ appropriation du message  
+__Sythétisation.__ design, forme, simplification.  
+__La constance.__  Rester dans les esprits. Entretenir l'intérêt.  
+__Gêne & satisfaction.__ Ancrage subjectif intéressant pour coûts & bénéfices.
+
+---
+
+##### 16.01.2016 _11:16_
+__[Réflexion]__ Le discours économique actuel manque d'_incitatifs_ pour capter l'attention et l'_intérêt_ des profanes. L'_information_ qu'il présente est excessivement partielle, passive et ultimement, fondamentalement étrangère au commun des mortels. L'information perd alors sa substance informative et prend plutôt toutes les allures du bruit. Le PIB, la bourse et le cour des changes n'ont que très peu à donner à ceux-là. Une communication qui parlerait le langage du quotidien, qui miserait sur un caractère humain et une nature interactive, générerait les incitatifs recherchés et procurerait l'information nécessaire à la captation de l'attention pour susciter l'intérêt. Aborder les dynamiques économiques d'un point de vue subjectif (la valeur ressentie) plutôt qu'objectif (la valeur matérielle) permettrait ce saut dans le quotidien des usagers.
+
+Mais comment vulgarise-t-on la __pensée économique subjective__ ? Comment dois-je concevoir l'information pour qu'elle soit bien communiquée, bien reçue ? Les économistes autrichiens que sont [Neurath](http://plato.stanford.edu/entries/neurath/), Mises et Menger seront des assises théoriques... mais _non_ politiques. _(je ne souscris aucunement à la pensée politique ultra-libérale de Mises ou Menger, ni à la pensée centralisatrice de Neurath)_
+
+---
+
+##### 18.01.2016 _06:56_
+
+__[Appréciation critique]__ _George Stigler — Imperial economics_.
+
+Stigler applique toujours la théorie économique de façon à calculer un profit matériel. On pourrait étendre son analyse du côté émotif le profit, les coûts et autres concepts économiques peuvent s'appliquer à la gêne et à la satisfaction.
+
+Stigler traite de macroéconomie impériale. Je propose la microéconomie impériale. _L'individu_ et non les groupes ou les phénomènes sociaux. Pas obligé de servir à mesurer. Peut servir à comprendre, expliquer et anticiper des comportements, des phénomènes ou des événements.
+
+_Prouve mon point_ : l'économique ne s'intéresse actuellement qu'à l'aspect matériel, déshumanisé de son champ complet d'intérêt. On parle de mariage, mais en des termes tellement... _matérialistes_, qu'ils sont assurés de rebuter tout profane, tout humaniste voire toute personne n'ayant pas cette vision décalée de l'expérience humaine. _(Becker et autres s'étant penchés sur des problèmes inhabituels...)_
+
+Je ne dis pas que la mesure et le calcul sont mauvais. Mais ils ne doivent pas occuper tout l'espace. Ils n'expliquent pas tout et surtout ils ne sont pas toujours le bon véhicule pour l'information à communiquer. Quand on parle au public, les exemples d'interactions et de leurs consistance sont plus évocateurs que des statistiques (*voir tufte et lippman*). L'échelle est importante aussi.
+
+Proposer différentes analyses économique de situations où on croirait pas que ce soit applicable. eg : discours (l'insubstantialité... opportunity, freedom, etc.... valeur de l'information communiquée), relations de couple (répartition des coûts émotifs) etc. Présenter des constats économiques de manière ludique. Harnacher le pouvoir de la satire à des fins plus positives que critiques. Créer, induire et intéresser en utilisant l'humour, la dérision.
+
+---
+
+##### 19.01.2016 _07:28_
+__[Dompe d'idées]__ On intègre le plus possible les références extérieures. Wikipedia, etc. <mark>Non-linéaire</mark>. <mark>Circulaire</mark>. Selon les préférences subjectives.
+
+Faire un organigramme des sujets en plus de celui de l'interface. La pensée économique subjective comme entrée en matière. Un point de départ vers la compréhension des enjeux économiques sociaux. Multiplier les interactions avec l'usager. L'impliquer au maximum. Allier les dimensions exploitées par Cosmos. Jongler avec l'humour et la profondeur.
+
+---
+
+##### 21.01.2016 _06:39_
+__[Impressions]__ _Prison valley_ C'est bien le bonus qui appraît en plein milieu d'un film. <mark>Événement spontané</mark>.
+
+Le défilement _flash_.... c'est vraiment dérangeant. Ça fait foi de l'âge de la pièce. Ampleur de ce projet... <mark>Variété</mark> des interfaces. Intérêt du « regroupement » au sein de la chambre d'hôtel. Nous donne l'impression de vivre un peu ce que les réalisateurs ont dû vivre. Faire le point à l'hôtel...
+
+Pour moi ce sera la <mark>performance</mark> avant les effets. Les effets sont-ils VRAIMENT nécessaires ou servent-ils à masquer des imperfections ? Pourrait-on peaufiner ces imperfections et se débarasser de l'effet ?
+
+Vraiment, laisser la possibilité aux usagers de partir et revenir est primordiale dans ce genre de diffusion. Economia, de par ses fondations modulaires, est on ne peut mieux placé pour réussir ce pari. Il faudra y voir et travailler en ce sens.
+
+---
+
+##### 21.01.2016 _10:06_
+__[Dompe d'idées]__ Que ce soit autant un outil de réflexion pour l'utilisateur que pour les décideurs... Qu'on puisse en tirer des enseignements. Qu'on amène les gens à réfléchir et à se positionner. Procurer quelques outil pour exprimer des idées. Demander des opinions et les proposer. Les gens peuvent en discuter et « voter » en (dé)faveur de celles-ci. Affichage selon popularité par exemple. Procurer un <mark>forum</mark> de réflexion bien ancré dans l'environnement informatif de l'expérience.
+
+Plein de types de contenus regroupés de maintes façon. On peut accéder à chacun à partir de différentes interfaces qui donnent, par exemple, le temps prévu pour faire l'<mark>activité</mark>. Le niveau de complexité théorique... (amateur, avancé, etc.) Activités cachées. Vidéos. Quiz. Textes. Jeux. Etc. Concepts clés. Les activités se référencent entre elles. Présence d'un genre de lexique couvrant l'expérience en entier.
+
+Genre d'arbre de connaissances et d'activités liées entre elles. On peut visualiser. Jouer avec. En modifier la composition selon nos intérêts et connaissances. Des chapitres qui s'ajoutent au fil du temps ? Une expérience vivante ?
+
+_Importance de passer dans le monde physique._ En faire une version imprimée. Juste un livre. Imagé ou pas. En faire des genre d'illustrations autonomes comme vu souvent aillerus... Illustration + aphorisme (_Innovate_ _entreprends_). _Genre_. ~~Peut-être permettre aux gens de faire leur propre illustration..?~~
+
+Laisser la possibilité de lire le contenu _sans_ compte _mais_ promouvoir le compte... par exemple, quelqu'un qui arriverait d'un partage Facebook, sur un article, on lui pose une question économique et on lui recommande de s'inscrire s'il n'a pas la bonne réponse... <mark>Surprendre</mark>, <mark>inciter</mark>
+
+<mark>Contexte</mark> et <mark>attentes</mark> on y revient toujours.
+
+Il faut impliquer émotivement/personnellement l'usager... Dans Economia, lui poser des questions sur ses valeurs, ses opinions, les comparer... lui permettre de se créer un profil économique... Ça c'est un incitatif à interagir.
+
+---
+
+__[Flash : Récompense]__ _Innover_ Illustration d'_une_ coach de hockey avec une équipe mixte... genre. ~~on peut changer les faces~~... facebook... <mark>partage</mark> Choix d'illustrations. _On peut changer les couleurs_... interactif bref. il en résulte un poster... un fond d'écran.
+
+---
+
+##### 22.01.2016 _07:02_
+__[Question]__ __Est-ce que ça devrait s'appeler un « traité » ?__
+
+---
+
+__[Flash : fonctionnalité]__ À chaque fois que tu reviens à l'expérience c'est du contenu aléatoire qui t'accueille. Une genre d'animation de fond avec l'interface par dessus. Peut être imprimé. les paragraphes sont la moitié d'un 8.5 11 et sont fait pour être recto-verso l'un aux côtés de l'autre. pensés comme tels. bien designés. soin porté.
+
+Insister sur la <mark>personnalisation</mark> de l'expérience. Fond d'écran. Couleurs. Chapitres préférés. Courbe d'apprentissage. Trajectoire suivie. Expérience open-ended.
+
+Jouer avec des modèles. Présenter un outil d'analyse économique interactif sous forme de modèle en arbre avec noeuds décisionnels et paramètres les influençant. <!-- <mark>L'écographie</mark> -->
+
+~~L'impact des mathématiques sur la conduite sociale des affaires économiques. Parler du langage. Comment ila redéfini l'économique. Ce qu'on entend maintenant par « économique ».~~
+
+---
+
+<!-- ##### 22.01.2016 _19:26_
+__[Définition]__ _C'est quoi l'écographie ?_ L'ambition est de faciliter, personnaliser et encourager l'<mark>exploration</mark> d'un système économique complexe. Je désire utiliser ce concept dans mon « traité » afin de démontrer certaines dynamiques économiques, afin de présenter des problématiques concrètes, telles que par exemple le fonctionnement de la gestion de nos déchets ou bien la façon dont un pallier de gouvernement doit disposer de ses ressources. Il s'agit de procurer un outil d'exploration, non-linéaire, où l'usager n'est guidé que par son propre intérêt, par ses préférences subjectives.
+
+L'écographie est constituée de deux parties : la première représente le système exposé - ici, l’Assurance-Médicaments du Québec - la deuxième est un espace d’information - statistiques, vidéos, articles de journaux, etc.
+
+Le système a deux composantes : les acteurs et les transactions (liens) entre
+eux. Les liens entre ces acteurs sont de natures diverses. L'usager peut aussi explorer un acteur en détail. Il demeure à conceptualiser la profondeur nécessaire à la représentation de systèmes complexes, ayant plusieurs niveaux. Nous, mes partenaires et moi avons commencé à réfléchir à la façon d'utiliser l'écographie afin de visualiser le système derrière l'innovation au Québec.
+
+Dans ce cas, les « acteurs » seraient les différentes étapes de l’innovation : la recherche fondamentale, la recherche et le développement, la précommercialisation et la commercialisation. Mais l'usager (Universités, Organismes publics, Entreprises) doit aussi explorer une étape en détail. Dans ce cas, les acteurs impliqués dans celle-ci et les liens entre eux apparaissent comme un nouveau niveau, remplaçant l'ancien. Mais il faut penser la navigation de ces différents niveaux... Comment ne pas perdre l'usager ? Je crois avoir pensé un moyen d'y arriver, en utilisant le cercle au centre, en le bonifiant d'une simple interface contextuelle permettant de naviguer dans l'axe des « Z », dans la troisième dimension... La métaphore visuelle de la pile (une pile d'icones...) serait probablement d'une grande aide.
+
+Il existe un autre niveau de profondeur à l'écographie. La profondeur des informations relatives à l'acteur où à la transaction choisie. Les informations présentées d'emblée sont de nature plus large et synthétique. 
+Mais ces informations contiennent également des liens permettant à l'usager d’approfondir ses connaissances sur des aspects particuliers de l’innovation en toute liberté, _selon ses propres préférences_. Un marqueur de visualisation doit être activé pour chaque élément auquel l'usager a accédé afin de faciliter l'orentation de ce dernier et lui permettre de bien saisir ce qu'il a parcouru ou pas dans le système.
+
+Finalement, et là se trouve la fonctionnalité la plus intéressante d'un point de vue interactif, après un certain laps de temps à parcourir le système s'ouvrirait à l'usager l'accès à une « table de négociation ». Cette interface met en scène de la même manière les différents acteurs au sein du système étudié mais avec, en addition, la possibilité de modifier à sa guise les différents transferts entre les acteurs. L'usager peut donc <mark>constater</mark> directement quel serait l'impact d'ouvrir la bibliothèque le dimanche. Plus de taxes ? Moins de déneigement ? Il peut <mark>jouer</mark> avec le système. Il peut le paramétrer à son goût pour qu'il représente ses propres valeurs, préférences, intérêts. Il devient alors pertinent de « sauvegarder » et partager ces configurations. Celles-ci peuvent devenir des outils de propagation de l'expérience. La table de négociation est un aspect fondamental de l'écographie et celle-ci un type d'activité avancée riche d'interaction pour Economia.
+
+Plusieurs questions techniques sont soulevées par un tel outil. Les données seront-elles affichées en direct où il y aura-t-il une routine de mise à jour d'intégrée ? Pourra-t-on amender facilement le système en cas d'erreur théorique ? _À voir..._
+
+##### 23.01.2016 _08:52_
+__[Idée de slogan]__ Avec l’Écographie , il y a autant de manières de
+comprendre un sujet que de personnes voulant le
+comprendre. -->
+
+---
+
+##### 23.01.2016 _12:34_
+__[Réflexion]__ Marier les formes expérimentales, narratives, interactives pour faciliter l’absorption, encourager la compréhension des concepts et théories économiques... en tant qu’outils d’analyse d’une part et d’arguments politiques de l'autre.
+
+---
+
+##### 24.01.2016 _09:04_
+__[Réflexion]__ J'ai rejeté d'emblée la conception d'une expérience « amalgamée » comme celle qu'on voit souvent où l'expérience doit être prise en tant que telle, où il est difficile de ne consommer que quelques instants, d'apprendre seulement un p'tit quelque chose... 
+
+J'y préfère une approche « composite » modulaire, plus en phase avec la constitution même du Web en tant que médium. Des activités de tout acabit, qui non seulement maximisent la chance de participation en procurant un meilleur choix à l'usager, mais de surcroît, voyagent beaucoup plus aisément sur les eaux d'Internet. Il y aura trois facteurs primordiaux pris en compte dans la conception de l'expérience : la modularité, la portabilité, la subjectivité. La modularité et la portabilité permettent l'évolution de l'Expérience, une dimension fondamentale du Web qui est généralement mal ou peu utilisée dans les expériences interactives connues. On doit ajouter du contenu, se coller à l'actualité. Annoncer le nouveau contenu. Faire évoluer la plateforme avec le dit contenu. La maintenance est un facteur clef de l'évolution. Il faut _absolument_ en maximiser la facilité.
+
+---
+
+__[Activité]__ Expliquer le problème du « [resquilleur](https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie)) » à l'aide d'une mise en scène vidéo. Le « personnage-guide » de Economia nous explique la situation avec humour et interaction. Dans une soirée entre amis où _tu_ te trouves, une flatulence se fait sentir. Les visages se crispent puis on sourit. « Qui a pété ? » demande-t-on, « parce que ça sent quelque chose de rare », rajoute-t-on. La coupable est trouvée, c'est Sophie, assise à côté de toi. Tout le monde rit en signalant la persistence de l'odeur. Sophie est bien gênée.
+
+Mais _toi aussi_ tu as envie de flatuler..! En profiteras-tu alors que Sophie a déjà payé le coût de l'odeur..? Tu pourrais ainsi te soulager dans l'anonymat, protégé par le geste antédécent de Sophie...
+
+Donner des choix ?
+
+---
+
+##### 24.01.2016 _09:04_
+__[Réflexion]__ J'ai rejeté d'emblée la conception d'une expérience « amalgamée » comme celle qu'on voit souvent où l'expérience doit être prise en tant que telle, où il est difficile de ne consommer que quelques instants, d'apprendre seulement un p'tit quelque chose... J'y préfère une approche « composite » <mark>modulaire</mark>, plus en phase avec la constitution même du Web en tant que médium. Des activités de tout acabit, qui non seulement maximisent la chance de participation en procurant un meilleur choix à l'usager, mais de surcroît, voyagent beaucoup plus aisément sur les eaux d'Internet. Il y aura trois facteurs primordiaux pris en compte dans la conception de l'expérience : la modularité, la <mark>portabilité</mark>, la <mark>subjectivité</mark>. La modularité et la portabilité permettent l'évolution de l'expérience, une dimension fondamentale du Web qui est généralement mal ou peu utilisée dans les expériences interactives connues. On doit ajouter du contenu, se coller à l'<mark>actualité</mark>. Annoncer le nouveau contenu. Faire évoluer la plateforme avec le dit contenu. La maintenance est un facteur clef de l'évolution. Il faut _absolument_ en maximiser la facilité.
+
+---
+
+##### 24.01.2016 _10:31_
+__[Références]__ Énormément de belles idées et pistes dans ce [billet](https://css-tricks.com/svg-funsville-links/). La batterie interactive est porteuse. Une interface dynamique qui permettrait à plusieurs personnes d'intéragir à la fois, chacun de leurs ordinateurs ouvrirait la voie à d'intéressantes possibilités de jeux économiques en direct. [Meteor](https://www.meteor.com/) sera dans ce cas à considérer comme plateforme de développement.
+
+---
+
+##### 25.01.2016 _08:47_
+__[Dompe d'idées]__ La mise en scène du pet explique le coût d'opportunité... C'est là où il sera le plus faible. Mais il débloque la fiche du problème du [resquilleur](https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie))... Problème qui affecte nos vies quotidiennes... On a un <mark>signal</mark> visuel qui nous indique la nouvelle activité complémentaire.
+
+Aussi, un schèma circulaire ou on débloque les différents concepts économiques qu'on aborde... Coût d'opportunité, incitatifs, échange, risque, etc. Marque la progression dans le champ économique.
+
+Configurez votre propre économie personnelle/individuelle... plus de loisir ? plus de travail ? plus d'argent ? plus de famille ? quels sont vos choix ? comparez avec vos concitoyens.
+
+---
+
+##### 26.01.2016 _13:07_
+__[Références]__ Introduction à Earthbound le classique du SNES. Immersion. Soin à l'interface.
+
+__IMPORTANT__ Les <mark>récompenses</mark> qui passent du côté <mark>physique</mark> sont un moyen de contourner la marée sur le Web. Elles ont donc une double fonction. Elles sont une stratégie de <mark>diffusion</mark>.
+
+---
+
+##### 28.01.2016 _06:53_
+__[Réflexion]__ La vidéo m'intéresse moins. Pas qu'elle soit inintéressante en soi, non, mais plutôt parce qu'elle coûte excessivement cher. On pourrait assurément dire que le développement informatique est tout aussi coûteux ; ce à quoi je répondrais en faisant la distinction suivante. La vidéo est coûteuse en soi alors que le coût du développement dépend en majeure partie de ce qui aura été conçu en amont. Il est donc possible de minimiser grandement les coûts de développement en créant en adéquation avec le médium cependant que la vidéo, elle, commande d'emblée une quantité de ressources impressionnante pour en arriver à une qualité satisfaisante. Bref, il y a un bel horizon de gains d'efficacité potentiels lorsqu'il est question de développement mais très peu du côté de la vidéo. Il faudra donc l'utiliser avec parcimonie, en certaines occasions (courtes mises en scène, entrevues simples). Parce que oui, elle a son rôle à jouer, absolument.
+
+---
+
+##### 28.01.2016 _12:43_
+__[Activité]__ Une vidéo qui mettre en scène une situation courante, genre traverser la rue, et qui permet de sélectionner des endroits dans la vidéo qui seraient des informations. Qu'est-ce qui selon vous serait une information dans ce tableau..? Comparaison en direct possible avec les autres usagers.
+
+Le libre-marché repose sur l'ordre spontané. Cet ordre peut être efficace en certains moments, lorsque la pression est faible. Imaginez une plage... Si peu de gens, parfait... si beaucoup ? Planification, concertation. En certaines situations l'ordre spontané ne produira pas l'optimum. Le libre-marché n'est pas absolu. Il n'est pas la solution, de facto, à tout. Produire un petit vidéo interactif qui jette une lumière sur cette problématique. Mais encore une fois, dans un univers humain, quotidien, familier. _Sans argent!_
+
+---
+
+__[Fonctionnalité]__ Une interface sur les vidéos qui permet d'accéder au savoir sans affecter ton visionnement de la vidéo. Pouvoir y revenir rapidement, comme si rien ne s'était passé.
+
+---
+
+__[Récompense _(?)_]__ Faire une arborescence visuelle des divers courants et principaux économistes à travers les âges. À la manière d'un [Sam Dunn](http://imgur.com/4vKZbNC) mais avec de l'interactivité.
+
+---
+
+__[Activité]__ Faire un <mark>jeu</mark> avec l'entrepreunariat où on cultive une entreprise durant toute l'expérience. Entreprise non monétaire... Genre une équipe de hockey de quartier. On peut voir les conséquences économiques de nos choix.
+
+---
+
+##### 29.01.2016 _06:29_
+__[Réflexion]__ Nous sommes affligés par le manque d'attention, de concentration qui caractérise notre navigation sur les eaux Internet. Je suis le premier touché par cette affliction. J'essaie de comprendre. Est-ce une question de contexte ? Contexte environnemental (mal assis, bureau, petit écran, etc...) ou contexte mental (volatilité de l'esprit, des envies devant l'écran, manque d'intérêt) ? Il est absolument rare que l'usager d'Internet prenne le temps nécessaire (souvent de l'ordre de la dizaine de minutes) pour compléter en une seule phase un article de fond ou une vidéo informative de moyenne durée. 
+
+Et c'est là où je crois le contexte environnemental peut influencer l'attention. Parce que, sur Internet, l'information ne nous provient pas à notre rythme. Elle peut nous être lancée, par surprise, sur Facebook alors que nous ne sommes aucunement confortable pour s'y intéresser et l'assimiler. Cela dit, il y a de fortes chances que nous soyons curieux de savoir ce qui se cache derrière ce lien partagé... 
+
+Nous suivrons donc le lien, pour se rendre à l'œuvre à consommer dans un état complètement déphasé avec ce que ce contenu nous demande. Le lien ne disait pas grand chose sur la teneur de ce qui se cachait derrière. Même si ça semble intéressant, après 15 secondes, on avance rapidement dans la vidéo. Après, 45 secondes, on pense à autre chose tout en se disant qu'il s'agit d'une pièce d'intérêt et qu'on devrait y revenir. On y reviendra jamais. Cette œuvre sombrera, en groupe, dans l'oubli glacial du fond des mers Internet. Tout ça en bonne partie parce que l'œuvre ne possède qu'_une seule chance de faire bonne impression_... Et que l'_Internet regorge d'occasions d'être présenté au mauvais moment_. 
+
+Pour éviter ces écueils, il faut être le plus informatif possible dans les liens qui seront propagés (le temps requis pour chaque activité devrait suivre dans chaque partage FB, par exemple) et on doit rappeler notre existence ponctuellement, non pas en envoyant des courriels vides de sens autre que celui qu'on se souvienne de nous mais en créant de nouveaux contenus liés à l'actualité qu'on communique à nos usagers et qu'on invite à partager.
+
+Ce faisant, on renouvelle constamment la <mark>valeur</mark> à tirer de notre œuvre et on facilite l'adaptation aux avancées technologiques Web en y gardant les mains en empêchant à la matière informatique de stagner.
+
+---
+
+##### 30.01.2016 _07:17_
+__[Réflexion]__ Il faut impliquer émotivement l'usager si on désire l'amener à interagir avec l'œuvre. Que ce soit à travers ses relations avec les autres usagers ou à travers les fonctionnalités de l'œuvre même, l'usager n'agira que s'il y perçoît une valeur ajoutée. C'est le rôle du créateur de générer les <mark>incitatifs</mark> et les informations nécessaires à l'utilisation par l'usager des fonctionnalités qui sont mise à sa disposition. Il doit se sentir impliqué. Que ses actions ont un impact. Qu'il apprendra à travers celles-ci. On doit aussi lui faciliter au maximum (sans aller trop loin... [juste milieu](https://fr.wikipedia.org/wiki/Juste_milieu)) la transaction nécessaire à son gain, c'est-à-dire, par exemple, les étapes préparatoires à la discussion en direct (connexion, chargement, menus, bruit informatif, etc.). 
+
+Ces désagréments minimes d'un point de vue physique acquièrent une importance capitale de l'intérieur du monde virtuel. Effectivement, la vitesse avec laquelle nous sommes habitués d'atteindre notre profit est telle que le moindre minuscule désagrément (quelques secondes d'attente, un clic de souris de trop, une animation dissonnante, etc.) peut stopper notre activité de suite. Le coût d'opportunité est _énorme_ sur Internet. __Nous pourrions toujours être ailleurs, partout.__ À la moindre petite gêne, nous tenterons alors notre fortune autre part, en effectuant des choix alternatifs de consommation virtuelle.
+
+Il sera conséquemment primordial de bien concevoir les transactions et de produire un contenu et des fonctionnalités qui sauront toucher subjectivement les usagers à travers leurs propres expériences, leur propre vie et ainsi les amèneront à s'impliquer dans l'œuvre.
+
+---
+
+##### 03.02.2016 _9:15_
+__[Activité — Démystification]__ Un article imagé, artistiquement dirigé, sur la notion de PIB. Ce qu'elle est ce qu'elle n'est pas. Évidemment, dans un langage subjectif...
+
+---
+
+__[Activité — Question spontanée]__ si on vous assurerait votre bien-être, votre émancipation, mais que cette assurance requièrait la mise en place d'une dictature, seriez-vous prêt à laisser tomber la démocratie ?
+
+---
+
+##### 06.02.2016 _5:55_
+__[Fonctionnalité]__ Utiliser [Meteor](https://www.meteor.com/) pour que les p'tits jeux soient en direct. P. ex. le surlignage dans l'article « débile » est en direct... ta page se surligne devant toi quand un autre participant surligne un passage jugé déficient.
+
+On dit qui est en ligne. On en profite. On interagit les uns avec les autres. Des questions ? Des signaux de ce que les autres font ? De leurs allégeances ? De leur profil ?
+
+Après avoir donné un exemple de ce qu'est le problème du [resquilleur](https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie)), avec le _pet_ mettons, on demande à l'usager de proposer un exemple semblable dans sa vie en général..?
+
+---
+
+__[Activité — analyse]__ Une topographie de l'économie Internet. État actuel. Poissiblités. Propositions de réformes. Taxes de consommation. Liberté d'échange. Bien commun. Bien public. Efficacité de l'échange gratuit vs. services oligopolistiques (Spotify & AppleMusic, Netflix & CraveTV, etc.). Le consommateur paie plus, le distributeur engrange plus.
+
+---
+
+##### 08.02.2016 _22:13_
+__[Impressions]__ Dada-data : intelligente utilisation d'extension chrome. À considérer. Mais malheureusement ce que j'ai rencontré n'était au final que des publicités pour leur site...
+
+---
+
+##### 12.02.2016 _09:45_
+__[Impressions]__ Dada-data intègre le contenu de pages wikipedia mais pas les liens externes vers les définitions... tenter de les intégrer au sein de l'expérience... rapatrier. l'afficher dynamiquement. L'information sur les artistes est la bienvenue. Cela dit, on a pas envie de lire. La direction artistique est lourde et affecte négativement la lisibilité du contenu. Il aurait été intéressant de pouvoir accéder à ces informations de manière rapide dans un contexte épuré. J'ai plus envie de le lire sur Wikipedia... Donner les options de le faire peut-être ?
+
+Pas de vue d'ensemble! Il est difficile d'apprécier la progression faite dans l'expérience... Quels contenus n'avons-nous pas vus ? désorientant comme le dada, certes. mais peut-être qu'une vue plus claire de l'ensemble aurait pu être intégrée en arrière-plan...
+
+---
+
+##### 12.02.2016 _11:05_
+__[Impressions]__ Je viens de recevoir le courriel pour le GAFA. C'est intéressant! Mais la direction artistique et la concenption graphique n'incitent pas à lire. La lisibilité est médiocre. Mais c'est beau... et ordinateur surchauffe !
+
+Pourquoi le téléphone avec la marionnette ? 
+Combien de temps ça a pris à développer ? 
+Qu'est-ce que ça ajoute ?
+
+Y a-t-il une question de « recherche & développement » dans ce choix d'interface ?
+
+__Extension Chrome__ on aurait pu nous lancer ailleurs que sur le site. Nous propulser dans les méandres du Web dada. Jouer avec nous... C'eût été intéressant de me perdre...
+
+---
+
+##### 13.02.2016 _16:49_
+__[Approche]__ J'essaie le plus possible de garder une configuration minimale (petits écrans, ordinateur de quelques années, moyenne gamme...) afin de créer des expériences qui soient adaptées au plus grand nombre d'appareils et donc accessibles au plus grand nombre d'usagers.
+
+---
+
+##### 13.02.2016 _18:54_
+__[ Récompense — _poster (?)_ ]__  __L'économie, n'est pas une FIN. C'est un moyen.__ Elle doit être soumise à un objectif politique, humain, social, personnel. Armez-vous de suspicion, et de distance lorsqu'on sollicite l'économie en soi. 
+
+Bon pour l'économie... Ça veut dire bon pour qui ? pour quoi ?
+
+---
+
+
+__[Flash : activité]__ __Faire une activité qui demande qui a dit telle ou telle citation. Défier les préconceptions.__ On met dans la page des caricatures de la personne qui a dit ça. On met avec les cariactures le nom et une description... un p'tit module contextuel qui donne des infos complémentaires. On joue avec ça. Choix de réponses.
+
+~~En fait, faire des p'tits personnages de théoriciens. Et on pourrait laisser les gens les former en les présentant au départ. Première fois qu'on présnete un théoricien, l'utilisateur peut décider de ce q'il a l'air parmi tous les corps, membres, looks, et visages offerts. On ne donne pas la bonne réponse. Le personnage qui aura été formé sera celui qui suivra l'expérience. Milton Friedman pourrait ressembler à Karl Marx. Ces personnages peuvent revêtir un rôle d'animateur ou de guide momentané selon les situations dans l'expérience.~~
+
+---
+
+##### 14.02.2016 _08:01_
+__[Technique]__ Créer une grille graphique qui soit adaptative mais sans contrainte de profondeur... Il est toujours complexe présentement, en utilisant les unités de pourcentages, de créer des grilles maîtresses en CSS. L'utilisation des unités « viewport » peut aider mais le problème réside alors dans l'incapacité de stopper l'adaptation des éléments à la taille de l'écran. Si on voulait, par exemple, donner une largeur maximale à notre produit Web, les unités viewport ne nous le permettraient pas. Cela devient problématique et impraticable pour plusieurs raisons.
+
+Mais peut-être alors pourrait-on fonder la grille sur l'unité « REM » qui elle est basée sur la hauteur de caractère par défaut du document. Ces dimensions de caractères peuvent, elles, être définies à l'aide de toute unité. Une unité « viewport » par exemple... Et si on définissait notre grosseur de caractère en « VW » et qu'à une certaine largeur d'écran on changeait la valeur de la propriété pour une unité fixe, telle que le pixel par exemple ?
+
+Peut-être serait-il alors possible de créer des grilles maîtresses, ayant une largeur maximale, et ne présentant pas le problème de l'imbrication des conteneurs comme c'Est le cas pour les unités de pourcentage.
+
+Tout ce qui provoque un recalcul de la composition graphique par le moteur de rendu est coûteux en termes de performance. Pour maximiser celle-ci et minimiser les possibilité de perdre l'usager... on doit utiliser les transformations vectorielles et les couleurs... les opacités
+
+---
+
+##### 16.02.2016 _06:55_
+__[Piste]__ Inviter les usagers à introduire leurs niveaux personnels de paramètres donnés (préférences loisirs/travail capital/liquide tolérance au risque etc.) d'un modèle qui permettrait de suggérer des décisions à prendre en certaines situations pour maximiser son bien-être...
+
+---
+
+__[Flash : activité]__ les questions à poser... les drapeaux à lever. (Baillargeon — auto-défense) ie : les retombées économiques FLAG !!! Question : à qui profitent ces retombées..? Ainsi de suite.
+
+Une animation (on en fait l'analyse économique selon les objectifs afin de trouver la style approprié... probablement cheap et naïf) : un bonhommme qui se promène et qui lance des roches dans les fenêtres de toutes bâtisses. Après, il va dire en qu'il a créé des jobs. On fait un montage de politiciens qui parle de créer des jobs.
+
+[Design de mécanismes](http://en.wikipedia.org/wiki/Mechanism_design)
+
+Peut être intéressant pour designer des jeux où les participants révèlent leurs vraies préférences mettons.
+
+Une section sur la monnaie (comment on sait pas encore totalement c'est quoi. insister sur les querelles des « experts »). monnaie exogène vs. endogène... etc. [What is money ?](http://www.forbes.com/sites/stevekeen/2015/02/28/what-is-money-and-how-is-it-created/1/)
+
+
+8h59 26
+
+Jouer avec les disponibilités sur appareil... Certaines activités avec ci ou ça...
+
+
+#### 02.03.2016, _07:18_
+Poser des questions sur les intérêts de l'usager. Lui proposer quelques choix pré-établis (hockey, musique, jardin, etc.). On continue de lui poser les questions en ce sens... On le met dans le bain d'une entreprise de cet acabit on lui donnant sporadiquement des choix à faire. _On envoie des courriels des questions de temps à autres._ L'usager peut tout simplement répondre par courriel. Ça réponse est comptabilisée.
+
+#### 05.03.2016, _08:33_
+L'interface de Economia se construira au fur et à mesure. on ne voit presque rien au départ. peu d'indications. on apprend dedans. simplicité. on ajoute les fonctionnalités progressivement. des signaux graphiques accompagnent les découvertes.
+
+#### 07.03.2016, _07:53_
+[Work.](http://www.crimethinc.com/books/work.html) Le livre (et pas mal toute paruation de [CrimethInc](http://www.crimethinc.com/).). Les explications. Les illustrations. Bon pour l'économie, bon pour qui ? Dessiner différentes personnes. Faire une genre d'«ensemble piece» 
+
+#### 10.03.2016, _10:27_
+Narguer les usagers qui arrivent de l'extérieur et qui n'ont pas de compte. Utilisation du cookie pour comptabiliser le nombre de visites effectuées sans compte. On ne les oblige pas. Mais on les incite à passer à cette étape d'inscription à travers des messages spontanés et évolutifs & des fonctionnalités absentes (comparaisons, suggestions, etc.)
+
+p. ex. un usager arrive à partir de Facebook sur l'activité de type « Réforme économique » : « Pour un droit d'auteur virtuel juste & efficace ». À son arrivée, un message graphique questionne (de manière humoristique) la capacité de l'usager à intégrer les propositions faites dans l'activité puisqu'il n'a pas parcouru le chemin nécessaire. En fait, on ne le sait pas, puisqu'il n'est pas inscrit... On suggère de manière coquine... À la fin de l'activité, on lui fait comprendre qu'il est possible de suggérer et discuter avec les autres usagers... Mais qu'il ne peut le faire s'il n'est pas inscrit et connecté.
+
+#### 10.03.2016, _11:50_
+L'interface sera texte le plus possible. Jeux de couleurs mais pas ou peu d'éléments d'interface de type « Bouton ». Promouvoir la conversation plutôt. Proposer des choix textuels. Afficher les différentes avenues possibles de manière textuelle aussi. Inspiré par l'excellent [A Dark Room](http://adarkroom.doublespeakgames.com/)
+
+ECONOMIA
+Parce vous êtes quotidiennement mystifiés.
+Voulez-vous que nous démystifions tout ça, _ensemble_ ?
+
+
+#### 11.03.2016, _10:23_
+Les activités qui sont partagées pourraient être dépouvues de toute esthétique interne à Economia. On partage que le contenu. On met de l'avant le fait que l'article soit bonifié une fois qu'on est inscrit & connecté. Pourrait devenir un incitatif à l'inscription.
+
+#### 12.03.2016, _07:27_
+Le personnage-guide/professeur peut t'aiguiller, te proposer des activités. Lorsqu'on le survole, p. ex., il pourrait énoncer : « le _ [coût d'opportunité](https://fr.wikipedia.org/wiki/Co%C3%BBt_d%27opportunit%C3%A9)    (lien)_ est un concept fondamental. vous devriez le comprendre sur le bout des doigts... »
+
+[_Note au passage_] Ah ! ben _calvaire_. Je continue encore d'être surpris des liens quis se créent. [Friedrich von Wieser](https://en.wikipedia.org/wiki/Friedrich_von_Wieser#Alternative_cost_theory), économiste issu de la première génération dde l'école autrichienne, est celui qui a théorisé le « coût d'opportunité »... Le projet, le mémoire, sont déjà bien ancré dans l'école autrichienne... voilà un lien de plus, considérant l'importance que revêt le coût d'opportunité dans l'œuvre.
+
+Je dois absolument exploiter les contenus de Wikipedia et autres sources, les intégrer esthétiquement, interactivement dans l'œuvre. La page sur le coût d'opportunité pourrait justement servir en partie, à différents niveaux.
+
+Déjà, alors que je recherche les fondements historiques du coût d'opportunité, je vois entrer en relation énormément d'économistes ayant tous leur personnalité et leur contribution. Un large éventail de personnages à dessiner à créer... Ils poseront chacun des questions à l'usager en fonction de leur intérêt propre. Peut-être pourraient-ils s'obstiner ? Mill, Pareto, Wieser, Schumpeter, Alfred Marshall, Jevons, Polanyi, etc. tous ont une histoire, un contexte qui explique souvent — en partie du moins — leur conception et leurs avancées.
+
+Faire passer les personnages à certains moments du plein au trait. Comme j'ai déjà fait avec mon [visage](http://charp.me/web-doc/personnage/) quand on le clique.
+
+[La license de Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Reusing_Wikipedia_content) pour la réutilisation de ses contenus.
+
+Je pensais déjà rendre « public » le contenu d'Economia. Je peux donc utiliser presque tout le contenu de Wikipedia et utiliser ses licenses, les mettre de l'avant. Communiquer l'éthique « libre », en être fier.
+
+#### 13.03.2016, _08:58_
+
+Il y a des activités qui ne sont que des concepts. Ce sont des activités « de base ». Elles s'appuient en majeure partie sur du contenu Wikipedia et académique. Lorsque l'activité a été complétée, le concept est répertorié dans la section « concepts » de l'Index. Lors de la première activité de ce type, l'Index est aussi créé. Au fil de la progression, d'autres sections s'ajouteront selon ce qui aura été parcouru.
+
+Le coût d'opportunité. Une activité définition. Une mise en scène. Un vox-pop. Une réforme. Une question & comparaison. En faire un poster (dans le trafic ?).
+
+On débloque l'économiste Wieser, sa fiche technique et celle de l'École d'Autriche. Encore une fois on peut allégrement piger dans Wikipedia. Les deux fiches sont illustrées. Le professeur-guide pourrait commenter les « récompenses » lorsqu'on le survole (au bon moment ?)... Dans la fiche de l'école d'Autriche, on constate qu'il y a d'autres membres qui sont ombragés et qu'on peut découvrir.
+
+p. ex. « Ah! Fascinante, cette [Autriche](https://fr.wikipedia.org/wiki/Autriche) ! Personne n'a pensé l'économique comme eux... Ils étaient « particuliers » aussi... Humhum. »
+
+Maximiser les incitatifs à continuer l'exploration, même à l'extérieur de Economia. Proposer, suggérer, lier.
+
+Il sera important de se dissocier de toute prétention de justesse scientifique.
+
+Je me rends compte que je ne l'ai pas encore écrit : Normand Baillargeon est une grande, grande inspiration. Son désir de former et informer les esprits, de les outiller pour se défendre, son éthique, tout ça est au cœur de la démarche. J'aimerais demeurer près de ses techniques, près de sa pensée. « Que ferait le professeur Baillargeon ? » pourrait devenir un bon guide... Humhum.
+
+Idée brute pour la définition : Le coût d'opportunité... blablabla. Oui, ok, Wikipedia, merci. Mais en vrais mots..? (une flèche signale de faire défiler la page... on défile et écrit dans un jeu typographique de caractères énormes...) Le coût d'opportunité c'est TOUT ce que vous ne pouvez faire MAINTENANT parce que vous lisez CECI. 
+
+Pensez-y... Que pourriez-vous faire au lieu d'être assis ici ? 
+
+(On pose alors la question pour vrai, l'usager répond. Il peut répondre soit par la parole, soit par le clavier. Des réponses pourraient être suggérées ? Y aurait-il comparaison ou du moins partage possible des réponses enter usagers ? Assurément que la circulation des réponses est possible mais celle-ci soulève la question de la modération...)
+
+Après l'activité d'introduction on pourrait poser la première question de Economia « Quelle couleur préférez-vous ? » On propose quelques choix de couleurs et l'interface s'adapte au choix fait par l'usager. Façon de renforcer la subjectivité. En même temps, on installe un nouvel élément dans l'interface : le « profil ». 
+
+On peut continuer notre parcours sans entrer aucune information. On peut déposer un cookie (en le mentionnant) pour garder la progression sans être inscrit. Cela dit, le profil est maintenant ouvert. On peut s'y rendre. En s'y rendant, on y voit les informations potentiellement intéressantes (tendances politiques, économiques personnelles, graphiques...) qui peuvent être générées, les questions auxquelles répondre, une photo est possible d'être ajoutée, un économiste préféré peut-être choisi, les préférences quant à Economia y sont aussi présentées (la couleur, p. ex.). On pourrait acquérir le « privilège » de pouvoir naviguer les profils et ainsi constater où son concitoyen se situe... À chaque fois qu'une addition est faite au profil, un signal visuel _simple_ devrait le manifester.
+
+
+La recherche de contenu devrait être faite avec l'aide de [Algolia](https://www.algolia.com/). Je devrai jeter un coup d'œil à l'[API](https://www.mediawiki.org/wiki/API:Main_page) de Wikipedia.
+
+Peut-être pourrait-on aussi acquérir le privilège d'ajouter des références extérieures & intéressantes à celles déjà accolées aux activités ? Un système de notation pour assurer la pertinence des liens ? Faire la même chose pour les commentaires... À la _reddit_.
+
+#### 14.03.2016, _08:46_
+
+Et si on laissait l'usager explorer tout simplement l'univers ? Il fait défiler l'écrant, dans tous les sens (peut-être l'espace pourrait-it être rendu aléatoirement..?) et que, en explorant il découvre des activités qu'il peut remplir ou non, à sa guise... Découverte ? Jeu ? Ce concept de navigation pourrait-il aussi permettre de découvrir récompenses et compléments..?
+
+De plus en plus, il m'est d'avis que je devrais exploiter essentiellement le défilement comme méthode de navigation. L'insistance sur la construction de l'interface est toujours d'actualité.
+
+On pourrait présenter des catégories/concepts/etc. sous la forme d'une carte (qui se découvre au fur et à mesure que nous progressons)... On clique sur l'élément de notre choix et nous nous retrouvons dans son univers, là nous pouvons à l'aide du défilement nous y promener à notre guise. Ces univers ne sont pas exclusifs, ils peuvent intérgrer les mêmes activités. C'est tout simplement une autre perspective. On pourrait donner des indications vagues lors de l'arrivée dans l'univers. p. ex. (vidéos par là, théorie par ici, etc.). Une fois qu'on aurait trouvé un activité, on pourrait créer un « rapidotron » vers elle. Le contenu pourrait s'ériger de manière tout à fait fluide alors que nous parcourons l'univers... L'usager défile et puis tout d'un coup, s'érige en perspective la définition du coût d'opportunité. L'usager défile encore et on lui propose quelques références extérieures. Il défile encore et de manière <mark>transparente</mark> il reprend son chemin. 
+
+Ne pas oublier que le professeur-guide est toujours là et peut intéragir de temps à autre... 
+
+Ce modèle de navigation pourrait présenter l'avantage de l'impression de l'exploration, du temps qui passe, de la découverte, du parcours.
+
+On pourrait parsemer le parcours de petites interactions. questions, suggestions, blagues, capsules, actualités, etc. Le parcours pourrait devenir un espèce de lieu de transit libre, où, en relation avec le sujet de l'univers, l'expérience pourrait être, unique, modifiée à chaque fois, selon le temps, l'actualité, l'évolution de Economia, etc.
+
+Pour qu'une idée comme celle-ci fonctionne il faut _absolument_ que le défilement soit fluide et naturel. L'esthétique devra prendre en compte cette réalité et œuvrer sous un budget de performance restreint.
+
+Par ailleurs, ce modèle de navigation aurait l'avantage d'être éminemment portable. Fonctionne aussi bien sur portable que sur tablette, téléphone ou ordinateur de bureau.
+
+Quand tu reviens à l'expérience, elle aura été bonifiée d'autres modules. Des signaux visuels, des modifications de l'interface le communiqueront. Ce type d'évolution aura tendance à accrocher l'usager. Du moins à mon avis... Humhum.
+
+http://resn-experiments.tumblr.com/
+
+Est-ce que je pourrais essayer de garder réellement le défilement naturel ? Avec les barres et tout ? Que l'on voit bouger ? Jouer la carte de la carte jusqu'au bout ? Ajouter de la perspective est-il réellement nécessaire ? Bonne question. Une partie de moi me dit qu'il s'agirait d'une technique efficace pour impressionner... Peut-être pourrait-ce être le seul procédé esthétique qui soit intensif sur le processeur?
+
+Lors du parcours il serait important de ne pas interrompre le flux d'action p. ex. par de l'attente de chargement. Il pourrait être bien avisé d'intégrer de base une version légère de tout vidéo rencontré. La version haute qualité ne serait disponible qu'à travers une action (p. ex. un clic) qui serait _explicite_ à propos du chargement à venir. Ainsi, on impose pas le coût de la qualité à l'usager qui n'est pas prêt à le payer et en conséquence maximisons nos chances d'en garder l'attention.
+
+#### 14.03.2016, _12:47_
+
+Je crois que [GSAP](https://greensock.com) sera de mise. Je te tenterai tout de même d'en minimiser l'impact.
+
+Imprégner l'usager de la culture économique. Qu'il se baigne dans ses concepts, ses implications, ses aperçus, ses limitations, etc.
+
+Le site du [BeerCamp 2012](http://2012.beercamp.nclud.com/), créé par [NClud](https://nclud.com/) — dont faisait partie l'inspirant David DeSandro —, m'a toujours on ne peut plus impressionné. Je viens de tomber sur cet [article](https://www.smashingmagazine.com/2012/04/beercamp-experiment-with-css3d/) qui en explique le développement. Chanceux je suis car de surcroît, leur code est hébergé publiquement sur [github](https://github.com/nclud/2012.beercamp.com).
+
+Si jamais il était impraticable de permettre la navigation dans un environnement simulant trois dimensions, avec le défilement horizontal aussi, peut-être pourrait-on défiler verticalement seulement mais qu'on retrouve sur notre parcours des embranchements nous « tourner »...
+
+15.03.2016, 09:57
+Donner l'impression de <mark>marcher</mark>. Se promener, d'explorer, strictement par le défilement.
+[Keith Clark](www.keithclark.co.uk/labs/css-fps/) prouve que l'expration tri-dimensionnelle peut fonctionner en HTML & CSS. Par ailleurs, il le fait d'une manière beaucoup techniquement avancé que je n'aurais besoin de le faire. Je n'ai besoin que d'un sentiment de perspective procuré par du texte, des vecteurs et du bitmap. Ces éléments flotteraient dans un univers abstrait où ils défileraient au rythme de l'usager.
+
+16.03.2016, 22:26
+TERMES ET CONDITIONS. bien expliquer les objectifs et les limtes de Economia.

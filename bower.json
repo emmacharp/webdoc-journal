@@ -1,0 +1,16 @@
+{
+  "name": "sandbox",
+  "version": "0.9.1",
+  "authors": [
+    "Emma Charpentier <emma.charp@me.com>"
+  ],
+  "description": "sandbox starter",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

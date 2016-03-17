@@ -1,0 +1,535 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+
+body {
+  
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 5em;
+  line-height: 1.83125em;
+  font-family: 'Menlo', 'courier', Helvetica, Arial, sans-serif;
+  /*color: #131313;*/
+  color: #1f1220;
+  word-spacing: -.125em;
+  position: relative;
+}
+
+.markdown-body h2:last-child {
+  display: block;
+  text-align: center;
+}
+
+mark {
+  background-color: #ffdfe6;
+  animation: hue-rotate 160s ease-in-out infinite alternate;
+}
+
+@media screen {
+  html {
+    text-align: center;
+  }
+  body { 
+    display: inline-block;
+    text-align: left;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20em;
+    max-width: 38em;
+    margin-top: 4rem; }
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: 'Myriad Pro';
+  word-spacing: normal;
+}
+
+/*
+em {
+  font-weight: normal !important;
+}*/
+
+p {
+   max-width: 48em;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+   /*padding-left: 9em;*/
+}
+
+/*h5 + p {
+  padding-left: 0;
+}*/
+
+h5 + p strong:first-child,
+hr + p strong:first-child {
+  text-transform: uppercase;
+  font-size: .876125em;
+  /*font-family: 'Myriad Pro';*/
+  word-spacing: normal;
+  color: #fa3080;
+  letter-spacing: .025em;
+  position: relative;
+  top: -.036125em;
+  animation: hue-rotate 160s ease-in-out infinite alternate
+}
+
+h1 {
+  font-size: 1.3975em;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  font-weight: 100;
+  letter-spacing: .025em;
+  /*margin-left: -.5em;*/
+  /*font-family: 'Myriad Pro';*/
+}
+
+h2 {
+  font-size: 1.49675em;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  margin-left: -.5em;
+  /*font-family: 'Myriad Pro';*/
+}
+
+h3 {
+  margin-top: 2.67125em;
+  margin-bottom: 1.36125em;
+  font-size: 1.43625em;
+  letter-spacing: .025em;
+  font-weight:200;
+}
+
+h3:before {
+  content: '_';
+
+}
+
+h4 { 
+  margin-bottom: .5em;
+  font-size: 1.1125em; }
+
+h5 {
+  margin-top: 0;
+  font-size: .876125em;
+  margin-bottom: 0;
+  width: 6.5em;
+  left: -6.5em;
+  display: inline-block;
+  position: absolute;
+  top: auto;
+  color: #fa3080;
+  animation: hue-rotate 160s ease-in-out infinite alternate;
+}
+
+h5:after {
+  position: absolute;
+  content: "";
+  width: 3em;
+  border-bottom: 1px dashed currentColor;
+  top: 1em;
+  left: 7.5em;
+}
+
+h5 em {
+  display: block;
+  font-size: .96125em;
+  font-style: normal;
+  letter-spacing: .25em;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  color: #1f1220;
+}
+
+h4+h2 {
+  /*margin-top: 0;*/
+}
+
+h4 + p, h5 + p {
+  margin-top: 0;
+}
+
+hr + p {
+  /*margin-top: 2em;*/
+}
+
+hr {
+  clear: both;
+  background-color: transparent;
+  border: none;
+  height: 0;
+  margin: 4rem 0;
+}
+
+h1 + h3 {
+  margin: 0;
+}
+
+h1, h4:nth-of-type(1),
+h4:nth-of-type(2) {
+  display: inline-block;
+  margin-top: 0;
+}
+
+h1 {
+  /*width: 12.5em;*/
+}
+
+/*h4:nth-of-type(1){
+ width: 28em;
+ font-family: 'Menlo';
+ font-weight: normal;
+ font-size: .875em;
+}*/
+
+h1+h4:nth-of-type(1) {
+  float:right;
+}  
+
+h5 + h2 {
+  margin-top: 3em;
+}
+
+ul {
+  /*margin-top: 0.25em;*/
+  margin-bottom: 2rem;
+  padding-left: 0;
+  font-size: .96125em;
+}
+li em, li strong {
+  display: inline-block;
+}
+li em:first-of-type {
+  /*font-size: 1.125em;*/
+  /*width: 17em;*/
+}
+li em:last-of-type {
+  /*font-size: 1.125em;*/
+  /*width: 6em;*/
+}
+li em:nth-of-type(2) {
+  /*font-size: .9125em;*/
+  /*width: 15em;*/
+  /*font-style: normal;*/
+}
+li strong:first-of-type {
+  font-family: 'Menlo';
+  /*width: 14em;*/
+}
+li strong:nth-of-type(2) {
+  font-family: 'Menlo';
+  font-size: .86125em;
+  letter-spacing: .025em;
+}
+li {
+  list-style-type: none;
+  padding-left: 0;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+li li {
+  font-style: italic;
+  margin-bottom: .75em;
+  color: #222;
+}
+
+li li li {
+  font-style: normal;
+  margin-bottom: .25em;
+  color: #444;
+}
+
+li ul {
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+
+li:before {
+  content: "_";
+/*  position: absolute;
+*/  font-size: .5em;
+  margin-right: .46125em;
+}
+
+small.disclaimer {
+  margin-top: 1em;
+  display: block;
+  line-height: 1.1275em;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+@media print {
+  @page { margin: 2cm 2.5cm; }
+  body { display: block; padding: 1em 0; }
+  body { font-size: 9.25pt; }
+  p {
+     max-width: none;
+  }
+
+  h1 { margin-top: 0; margin-bottom: 4rem; }
+  * { orphans: 5; widows: 5; }
+  h2 { margin-top: 1rem; }
+  h2 + * {  page-break-before: avoid; }
+  ul {page-break-before: avoid; font-size: .83125em;}
+
+}
+
+@keyframes hue-rotate {
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}</style><style>/*github*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
+</style><title>index</title></head><body><article class="markdown-body"><h1 id="economiaio"><a name="user-content-economiaio" href="#economiaio" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>economia.io</h1>
+<h4 id="journal-de-bord"><a name="user-content-journal-de-bord" href="#journal-de-bord" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Journal de bord</h4>
+<hr />
+<h5 id="15012016-1942"><a name="user-content-15012016-1942" href="#15012016-1942" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>15.01.2016 <em>19:42</em></h5>
+<p><strong>[Dompe d'idées]</strong> On constate désintérêt. Désintérêt associé aux mathématiques et à l'industrie. Confusion entre finance et économique. Étrangeté de l'économique. Économique instinctive. Y remédier. Nourrir l'intérêt. Nouvelles technologies interactives. </p>
+<p>Portabilité. Évolutivité. Métaphores. Représentations. Activités. Modules. Liens. Facilité.</p>
+<p><em>Un</em> «  <a href="http://channel.nationalgeographic.com/cosmos-a-spacetime-odyssey/">Cosmos</a> » <em>interactif pour l'économique ?</em> Exposition des multiples dimensions des concepts abordés (politique, quotidienne, humaine, sociale, historique).</p>
+<hr />
+<h5 id="16012016-625"><a name="user-content-16012016-625" href="#16012016-625" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>16.01.2016 <em>6:25</em></h5>
+<p><strong>[Dompe d'idées]</strong> Les principes du design d'information et du design interactif évoqués par <a href="http://www.edwardtufte.com/tufte/">Edward Tufte</a> et <a href="http://worrydream.com/">Bret Victor</a> seront appliqués. Ils assureront une conception optimale pour une communication efficace des informations.</p>
+<p><strong>Enjeu.</strong> redonner accès à une information mal-aimée.<br />
+<strong>Interaction.</strong> appropriation du message<br />
+<strong>Sythétisation.</strong> design, forme, simplification.<br />
+<strong>La constance.</strong>  Rester dans les esprits. Entretenir l'intérêt.<br />
+<strong>Gêne &amp; satisfaction.</strong> Ancrage subjectif intéressant pour coûts &amp; bénéfices.</p>
+<hr />
+<h5 id="16012016-1116"><a name="user-content-16012016-1116" href="#16012016-1116" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>16.01.2016 <em>11:16</em></h5>
+<p><strong>[Réflexion]</strong> Le discours économique actuel manque d'<em>incitatifs</em> pour capter l'attention et l'<em>intérêt</em> des profanes. L'<em>information</em> qu'il présente est excessivement partielle, passive et ultimement, fondamentalement étrangère au commun des mortels. L'information perd alors sa substance informative et prend plutôt toutes les allures du bruit. Le PIB, la bourse et le cour des changes n'ont que très peu à donner à ceux-là. Une communication qui parlerait le langage du quotidien, qui miserait sur un caractère humain et une nature interactive, générerait les incitatifs recherchés et procurerait l'information nécessaire à la captation de l'attention pour susciter l'intérêt. Aborder les dynamiques économiques d'un point de vue subjectif (la valeur ressentie) plutôt qu'objectif (la valeur matérielle) permettrait ce saut dans le quotidien des usagers.</p>
+<p>Mais comment vulgarise-t-on la <strong>pensée économique subjective</strong> ? Comment dois-je concevoir l'information pour qu'elle soit bien communiquée, bien reçue ? Les économistes autrichiens que sont <a href="http://plato.stanford.edu/entries/neurath/">Neurath</a>, Mises et Menger seront des assises théoriques... mais <em>non</em> politiques. <em>(je ne souscris aucunement à la pensée politique ultra-libérale de Mises ou Menger, ni à la pensée centralisatrice de Neurath)</em></p>
+<hr />
+<h5 id="18012016-0656"><a name="user-content-18012016-0656" href="#18012016-0656" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>18.01.2016 <em>06:56</em></h5>
+<p><strong>[Appréciation critique]</strong> <em>George Stigler — Imperial economics</em>.</p>
+<p>Stigler applique toujours la théorie économique de façon à calculer un profit matériel. On pourrait étendre son analyse du côté émotif le profit, les coûts et autres concepts économiques peuvent s'appliquer à la gêne et à la satisfaction.</p>
+<p>Stigler traite de macroéconomie impériale. Je propose la microéconomie impériale. <em>L'individu</em> et non les groupes ou les phénomènes sociaux. Pas obligé de servir à mesurer. Peut servir à comprendre, expliquer et anticiper des comportements, des phénomènes ou des événements.</p>
+<p><em>Prouve mon point</em> : l'économique ne s'intéresse actuellement qu'à l'aspect matériel, déshumanisé de son champ complet d'intérêt. On parle de mariage, mais en des termes tellement... <em>matérialistes</em>, qu'ils sont assurés de rebuter tout profane, tout humaniste voire toute personne n'ayant pas cette vision décalée de l'expérience humaine. <em>(Becker et autres s'étant penchés sur des problèmes inhabituels...)</em></p>
+<p>Je ne dis pas que la mesure et le calcul sont mauvais. Mais ils ne doivent pas occuper tout l'espace. Ils n'expliquent pas tout et surtout ils ne sont pas toujours le bon véhicule pour l'information à communiquer. Quand on parle au public, les exemples d'interactions et de leurs consistance sont plus évocateurs que des statistiques (<em>voir tufte et lippman</em>). L'échelle est importante aussi.</p>
+<p>Proposer différentes analyses économique de situations où on croirait pas que ce soit applicable. eg : discours (l'insubstantialité... opportunity, freedom, etc.... valeur de l'information communiquée), relations de couple (répartition des coûts émotifs) etc. Présenter des constats économiques de manière ludique. Harnacher le pouvoir de la satire à des fins plus positives que critiques. Créer, induire et intéresser en utilisant l'humour, la dérision.</p>
+<hr />
+<h5 id="19012016-0728"><a name="user-content-19012016-0728" href="#19012016-0728" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>19.01.2016 <em>07:28</em></h5>
+<p><strong>[Dompe d'idées]</strong> On intègre le plus possible les références extérieures. Wikipedia, etc. <mark>Non-linéaire</mark>. <mark>Circulaire</mark>. Selon les préférences subjectives.</p>
+<p>Faire un organigramme des sujets en plus de celui de l'interface. La pensée économique subjective comme entrée en matière. Un point de départ vers la compréhension des enjeux économiques sociaux. Multiplier les interactions avec l'usager. L'impliquer au maximum. Allier les dimensions exploitées par Cosmos. Jongler avec l'humour et la profondeur.</p>
+<hr />
+<h5 id="21012016-0639"><a name="user-content-21012016-0639" href="#21012016-0639" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>21.01.2016 <em>06:39</em></h5>
+<p><strong>[Impressions]</strong> <em>Prison valley</em> C'est bien le bonus qui appraît en plein milieu d'un film. <mark>Événement spontané</mark>.</p>
+<p>Le défilement <em>flash</em>.... c'est vraiment dérangeant. Ça fait foi de l'âge de la pièce. Ampleur de ce projet... <mark>Variété</mark> des interfaces. Intérêt du « regroupement » au sein de la chambre d'hôtel. Nous donne l'impression de vivre un peu ce que les réalisateurs ont dû vivre. Faire le point à l'hôtel...</p>
+<p>Pour moi ce sera la <mark>performance</mark> avant les effets. Les effets sont-ils VRAIMENT nécessaires ou servent-ils à masquer des imperfections ? Pourrait-on peaufiner ces imperfections et se débarasser de l'effet ?</p>
+<p>Vraiment, laisser la possibilité aux usagers de partir et revenir est primordiale dans ce genre de diffusion. Economia, de par ses fondations modulaires, est on ne peut mieux placé pour réussir ce pari. Il faudra y voir et travailler en ce sens.</p>
+<hr />
+<h5 id="21012016-1006"><a name="user-content-21012016-1006" href="#21012016-1006" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>21.01.2016 <em>10:06</em></h5>
+<p><strong>[Dompe d'idées]</strong> Que ce soit autant un outil de réflexion pour l'utilisateur que pour les décideurs... Qu'on puisse en tirer des enseignements. Qu'on amène les gens à réfléchir et à se positionner. Procurer quelques outil pour exprimer des idées. Demander des opinions et les proposer. Les gens peuvent en discuter et « voter » en (dé)faveur de celles-ci. Affichage selon popularité par exemple. Procurer un <mark>forum</mark> de réflexion bien ancré dans l'environnement informatif de l'expérience.</p>
+<p>Plein de types de contenus regroupés de maintes façon. On peut accéder à chacun à partir de différentes interfaces qui donnent, par exemple, le temps prévu pour faire l'<mark>activité</mark>. Le niveau de complexité théorique... (amateur, avancé, etc.) Activités cachées. Vidéos. Quiz. Textes. Jeux. Etc. Concepts clés. Les activités se référencent entre elles. Présence d'un genre de lexique couvrant l'expérience en entier.</p>
+<p>Genre d'arbre de connaissances et d'activités liées entre elles. On peut visualiser. Jouer avec. En modifier la composition selon nos intérêts et connaissances. Des chapitres qui s'ajoutent au fil du temps ? Une expérience vivante ?</p>
+<p><em>Importance de passer dans le monde physique.</em> En faire une version imprimée. Juste un livre. Imagé ou pas. En faire des genre d'illustrations autonomes comme vu souvent aillerus... Illustration + aphorisme (<em>Innovate</em> <em>entreprends</em>). <em>Genre</em>. <del>Peut-être permettre aux gens de faire leur propre illustration..?</del></p>
+<p>Laisser la possibilité de lire le contenu <em>sans</em> compte <em>mais</em> promouvoir le compte... par exemple, quelqu'un qui arriverait d'un partage Facebook, sur un article, on lui pose une question économique et on lui recommande de s'inscrire s'il n'a pas la bonne réponse... <mark>Surprendre</mark>, <mark>inciter</mark></p>
+<p><mark>Contexte</mark> et <mark>attentes</mark> on y revient toujours.</p>
+<p>Il faut impliquer émotivement/personnellement l'usager... Dans Economia, lui poser des questions sur ses valeurs, ses opinions, les comparer... lui permettre de se créer un profil économique... Ça c'est un incitatif à interagir.</p>
+<hr />
+<p><strong>[Flash : Récompense]</strong> <em>Innover</em> Illustration d'<em>une</em> coach de hockey avec une équipe mixte... genre. <del>on peut changer les faces</del>... facebook... <mark>partage</mark> Choix d'illustrations. <em>On peut changer les couleurs</em>... interactif bref. il en résulte un poster... un fond d'écran.</p>
+<hr />
+<h5 id="22012016-0702"><a name="user-content-22012016-0702" href="#22012016-0702" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>22.01.2016 <em>07:02</em></h5>
+<p><strong>[Question]</strong> <strong>Est-ce que ça devrait s'appeler un « traité » ?</strong></p>
+<hr />
+<p><strong>[Flash : fonctionnalité]</strong> À chaque fois que tu reviens à l'expérience c'est du contenu aléatoire qui t'accueille. Une genre d'animation de fond avec l'interface par dessus. Peut être imprimé. les paragraphes sont la moitié d'un 8.5 11 et sont fait pour être recto-verso l'un aux côtés de l'autre. pensés comme tels. bien designés. soin porté.</p>
+<p>Insister sur la <mark>personnalisation</mark> de l'expérience. Fond d'écran. Couleurs. Chapitres préférés. Courbe d'apprentissage. Trajectoire suivie. Expérience open-ended.</p>
+<p>Jouer avec des modèles. Présenter un outil d'analyse économique interactif sous forme de modèle en arbre avec noeuds décisionnels et paramètres les influençant. <!-- <mark>L'écographie</mark> --></p>
+<p><del>L'impact des mathématiques sur la conduite sociale des affaires économiques. Parler du langage. Comment ila redéfini l'économique. Ce qu'on entend maintenant par « économique ».</del></p>
+<hr />
+<!-- ##### 22.01.2016 _19:26_
+__[Définition]__ _C'est quoi l'écographie ?_ L'ambition est de faciliter, personnaliser et encourager l'<mark>exploration</mark> d'un système économique complexe. Je désire utiliser ce concept dans mon « traité » afin de démontrer certaines dynamiques économiques, afin de présenter des problématiques concrètes, telles que par exemple le fonctionnement de la gestion de nos déchets ou bien la façon dont un pallier de gouvernement doit disposer de ses ressources. Il s'agit de procurer un outil d'exploration, non-linéaire, où l'usager n'est guidé que par son propre intérêt, par ses préférences subjectives.
+
+L'écographie est constituée de deux parties : la première représente le système exposé - ici, l’Assurance-Médicaments du Québec - la deuxième est un espace d’information - statistiques, vidéos, articles de journaux, etc.
+
+Le système a deux composantes : les acteurs et les transactions (liens) entre
+eux. Les liens entre ces acteurs sont de natures diverses. L'usager peut aussi explorer un acteur en détail. Il demeure à conceptualiser la profondeur nécessaire à la représentation de systèmes complexes, ayant plusieurs niveaux. Nous, mes partenaires et moi avons commencé à réfléchir à la façon d'utiliser l'écographie afin de visualiser le système derrière l'innovation au Québec.
+
+Dans ce cas, les « acteurs » seraient les différentes étapes de l’innovation : la recherche fondamentale, la recherche et le développement, la précommercialisation et la commercialisation. Mais l'usager (Universités, Organismes publics, Entreprises) doit aussi explorer une étape en détail. Dans ce cas, les acteurs impliqués dans celle-ci et les liens entre eux apparaissent comme un nouveau niveau, remplaçant l'ancien. Mais il faut penser la navigation de ces différents niveaux... Comment ne pas perdre l'usager ? Je crois avoir pensé un moyen d'y arriver, en utilisant le cercle au centre, en le bonifiant d'une simple interface contextuelle permettant de naviguer dans l'axe des « Z », dans la troisième dimension... La métaphore visuelle de la pile (une pile d'icones...) serait probablement d'une grande aide.
+
+Il existe un autre niveau de profondeur à l'écographie. La profondeur des informations relatives à l'acteur où à la transaction choisie. Les informations présentées d'emblée sont de nature plus large et synthétique. 
+Mais ces informations contiennent également des liens permettant à l'usager d’approfondir ses connaissances sur des aspects particuliers de l’innovation en toute liberté, _selon ses propres préférences_. Un marqueur de visualisation doit être activé pour chaque élément auquel l'usager a accédé afin de faciliter l'orentation de ce dernier et lui permettre de bien saisir ce qu'il a parcouru ou pas dans le système.
+
+Finalement, et là se trouve la fonctionnalité la plus intéressante d'un point de vue interactif, après un certain laps de temps à parcourir le système s'ouvrirait à l'usager l'accès à une « table de négociation ». Cette interface met en scène de la même manière les différents acteurs au sein du système étudié mais avec, en addition, la possibilité de modifier à sa guise les différents transferts entre les acteurs. L'usager peut donc <mark>constater</mark> directement quel serait l'impact d'ouvrir la bibliothèque le dimanche. Plus de taxes ? Moins de déneigement ? Il peut <mark>jouer</mark> avec le système. Il peut le paramétrer à son goût pour qu'il représente ses propres valeurs, préférences, intérêts. Il devient alors pertinent de « sauvegarder » et partager ces configurations. Celles-ci peuvent devenir des outils de propagation de l'expérience. La table de négociation est un aspect fondamental de l'écographie et celle-ci un type d'activité avancée riche d'interaction pour Economia.
+
+Plusieurs questions techniques sont soulevées par un tel outil. Les données seront-elles affichées en direct où il y aura-t-il une routine de mise à jour d'intégrée ? Pourra-t-on amender facilement le système en cas d'erreur théorique ? _À voir..._
+
+##### 23.01.2016 _08:52_
+__[Idée de slogan]__ Avec l’Écographie , il y a autant de manières de
+comprendre un sujet que de personnes voulant le
+comprendre. -->
+
+<hr />
+<h5 id="23012016-1234"><a name="user-content-23012016-1234" href="#23012016-1234" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>23.01.2016 <em>12:34</em></h5>
+<p><strong>[Réflexion]</strong> Marier les formes expérimentales, narratives, interactives pour faciliter l’absorption, encourager la compréhension des concepts et théories économiques... en tant qu’outils d’analyse d’une part et d’arguments politiques de l'autre.</p>
+<hr />
+<h5 id="24012016-0904"><a name="user-content-24012016-0904" href="#24012016-0904" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>24.01.2016 <em>09:04</em></h5>
+<p><strong>[Réflexion]</strong> J'ai rejeté d'emblée la conception d'une expérience « amalgamée » comme celle qu'on voit souvent où l'expérience doit être prise en tant que telle, où il est difficile de ne consommer que quelques instants, d'apprendre seulement un p'tit quelque chose... </p>
+<p>J'y préfère une approche « composite » modulaire, plus en phase avec la constitution même du Web en tant que médium. Des activités de tout acabit, qui non seulement maximisent la chance de participation en procurant un meilleur choix à l'usager, mais de surcroît, voyagent beaucoup plus aisément sur les eaux d'Internet. Il y aura trois facteurs primordiaux pris en compte dans la conception de l'expérience : la modularité, la portabilité, la subjectivité. La modularité et la portabilité permettent l'évolution de l'Expérience, une dimension fondamentale du Web qui est généralement mal ou peu utilisée dans les expériences interactives connues. On doit ajouter du contenu, se coller à l'actualité. Annoncer le nouveau contenu. Faire évoluer la plateforme avec le dit contenu. La maintenance est un facteur clef de l'évolution. Il faut <em>absolument</em> en maximiser la facilité.</p>
+<hr />
+<p><strong>[Activité]</strong> Expliquer le problème du « <a href="https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie)">resquilleur</a> » à l'aide d'une mise en scène vidéo. Le « personnage-guide » de Economia nous explique la situation avec humour et interaction. Dans une soirée entre amis où <em>tu</em> te trouves, une flatulence se fait sentir. Les visages se crispent puis on sourit. « Qui a pété ? » demande-t-on, « parce que ça sent quelque chose de rare », rajoute-t-on. La coupable est trouvée, c'est Sophie, assise à côté de toi. Tout le monde rit en signalant la persistence de l'odeur. Sophie est bien gênée.</p>
+<p>Mais <em>toi aussi</em> tu as envie de flatuler..! En profiteras-tu alors que Sophie a déjà payé le coût de l'odeur..? Tu pourrais ainsi te soulager dans l'anonymat, protégé par le geste antédécent de Sophie...</p>
+<p>Donner des choix ?</p>
+<hr />
+<h5 id="24012016-0904_1"><a name="user-content-24012016-0904_1" href="#24012016-0904_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>24.01.2016 <em>09:04</em></h5>
+<p><strong>[Réflexion]</strong> J'ai rejeté d'emblée la conception d'une expérience « amalgamée » comme celle qu'on voit souvent où l'expérience doit être prise en tant que telle, où il est difficile de ne consommer que quelques instants, d'apprendre seulement un p'tit quelque chose... J'y préfère une approche « composite » <mark>modulaire</mark>, plus en phase avec la constitution même du Web en tant que médium. Des activités de tout acabit, qui non seulement maximisent la chance de participation en procurant un meilleur choix à l'usager, mais de surcroît, voyagent beaucoup plus aisément sur les eaux d'Internet. Il y aura trois facteurs primordiaux pris en compte dans la conception de l'expérience : la modularité, la <mark>portabilité</mark>, la <mark>subjectivité</mark>. La modularité et la portabilité permettent l'évolution de l'expérience, une dimension fondamentale du Web qui est généralement mal ou peu utilisée dans les expériences interactives connues. On doit ajouter du contenu, se coller à l'<mark>actualité</mark>. Annoncer le nouveau contenu. Faire évoluer la plateforme avec le dit contenu. La maintenance est un facteur clef de l'évolution. Il faut <em>absolument</em> en maximiser la facilité.</p>
+<hr />
+<h5 id="24012016-1031"><a name="user-content-24012016-1031" href="#24012016-1031" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>24.01.2016 <em>10:31</em></h5>
+<p><strong>[Références]</strong> Énormément de belles idées et pistes dans ce <a href="https://css-tricks.com/svg-funsville-links/">billet</a>. La batterie interactive est porteuse. Une interface dynamique qui permettrait à plusieurs personnes d'intéragir à la fois, chacun de leurs ordinateurs ouvrirait la voie à d'intéressantes possibilités de jeux économiques en direct. <a href="https://www.meteor.com/">Meteor</a> sera dans ce cas à considérer comme plateforme de développement.</p>
+<hr />
+<h5 id="25012016-0847"><a name="user-content-25012016-0847" href="#25012016-0847" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>25.01.2016 <em>08:47</em></h5>
+<p><strong>[Dompe d'idées]</strong> La mise en scène du pet explique le coût d'opportunité... C'est là où il sera le plus faible. Mais il débloque la fiche du problème du <a href="https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie)">resquilleur</a>... Problème qui affecte nos vies quotidiennes... On a un <mark>signal</mark> visuel qui nous indique la nouvelle activité complémentaire.</p>
+<p>Aussi, un schèma circulaire ou on débloque les différents concepts économiques qu'on aborde... Coût d'opportunité, incitatifs, échange, risque, etc. Marque la progression dans le champ économique.</p>
+<p>Configurez votre propre économie personnelle/individuelle... plus de loisir ? plus de travail ? plus d'argent ? plus de famille ? quels sont vos choix ? comparez avec vos concitoyens.</p>
+<hr />
+<h5 id="26012016-1307"><a name="user-content-26012016-1307" href="#26012016-1307" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>26.01.2016 <em>13:07</em></h5>
+<p><strong>[Références]</strong> Introduction à Earthbound le classique du SNES. Immersion. Soin à l'interface.</p>
+<p><strong>IMPORTANT</strong> Les <mark>récompenses</mark> qui passent du côté <mark>physique</mark> sont un moyen de contourner la marée sur le Web. Elles ont donc une double fonction. Elles sont une stratégie de <mark>diffusion</mark>.</p>
+<hr />
+<h5 id="28012016-0653"><a name="user-content-28012016-0653" href="#28012016-0653" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>28.01.2016 <em>06:53</em></h5>
+<p><strong>[Réflexion]</strong> La vidéo m'intéresse moins. Pas qu'elle soit inintéressante en soi, non, mais plutôt parce qu'elle coûte excessivement cher. On pourrait assurément dire que le développement informatique est tout aussi coûteux ; ce à quoi je répondrais en faisant la distinction suivante. La vidéo est coûteuse en soi alors que le coût du développement dépend en majeure partie de ce qui aura été conçu en amont. Il est donc possible de minimiser grandement les coûts de développement en créant en adéquation avec le médium cependant que la vidéo, elle, commande d'emblée une quantité de ressources impressionnante pour en arriver à une qualité satisfaisante. Bref, il y a un bel horizon de gains d'efficacité potentiels lorsqu'il est question de développement mais très peu du côté de la vidéo. Il faudra donc l'utiliser avec parcimonie, en certaines occasions (courtes mises en scène, entrevues simples). Parce que oui, elle a son rôle à jouer, absolument.</p>
+<hr />
+<h5 id="28012016-1243"><a name="user-content-28012016-1243" href="#28012016-1243" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>28.01.2016 <em>12:43</em></h5>
+<p><strong>[Activité]</strong> Une vidéo qui mettre en scène une situation courante, genre traverser la rue, et qui permet de sélectionner des endroits dans la vidéo qui seraient des informations. Qu'est-ce qui selon vous serait une information dans ce tableau..? Comparaison en direct possible avec les autres usagers.</p>
+<p>Le libre-marché repose sur l'ordre spontané. Cet ordre peut être efficace en certains moments, lorsque la pression est faible. Imaginez une plage... Si peu de gens, parfait... si beaucoup ? Planification, concertation. En certaines situations l'ordre spontané ne produira pas l'optimum. Le libre-marché n'est pas absolu. Il n'est pas la solution, de facto, à tout. Produire un petit vidéo interactif qui jette une lumière sur cette problématique. Mais encore une fois, dans un univers humain, quotidien, familier. <em>Sans argent!</em></p>
+<hr />
+<p><strong>[Fonctionnalité]</strong> Une interface sur les vidéos qui permet d'accéder au savoir sans affecter ton visionnement de la vidéo. Pouvoir y revenir rapidement, comme si rien ne s'était passé.</p>
+<hr />
+<p><strong>[Récompense <em>(?)</em>]</strong> Faire une arborescence visuelle des divers courants et principaux économistes à travers les âges. À la manière d'un <a href="http://imgur.com/4vKZbNC">Sam Dunn</a> mais avec de l'interactivité.</p>
+<hr />
+<p><strong>[Activité]</strong> Faire un <mark>jeu</mark> avec l'entrepreunariat où on cultive une entreprise durant toute l'expérience. Entreprise non monétaire... Genre une équipe de hockey de quartier. On peut voir les conséquences économiques de nos choix.</p>
+<hr />
+<h5 id="29012016-0629"><a name="user-content-29012016-0629" href="#29012016-0629" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>29.01.2016 <em>06:29</em></h5>
+<p><strong>[Réflexion]</strong> Nous sommes affligés par le manque d'attention, de concentration qui caractérise notre navigation sur les eaux Internet. Je suis le premier touché par cette affliction. J'essaie de comprendre. Est-ce une question de contexte ? Contexte environnemental (mal assis, bureau, petit écran, etc...) ou contexte mental (volatilité de l'esprit, des envies devant l'écran, manque d'intérêt) ? Il est absolument rare que l'usager d'Internet prenne le temps nécessaire (souvent de l'ordre de la dizaine de minutes) pour compléter en une seule phase un article de fond ou une vidéo informative de moyenne durée. </p>
+<p>Et c'est là où je crois le contexte environnemental peut influencer l'attention. Parce que, sur Internet, l'information ne nous provient pas à notre rythme. Elle peut nous être lancée, par surprise, sur Facebook alors que nous ne sommes aucunement confortable pour s'y intéresser et l'assimiler. Cela dit, il y a de fortes chances que nous soyons curieux de savoir ce qui se cache derrière ce lien partagé... </p>
+<p>Nous suivrons donc le lien, pour se rendre à l'œuvre à consommer dans un état complètement déphasé avec ce que ce contenu nous demande. Le lien ne disait pas grand chose sur la teneur de ce qui se cachait derrière. Même si ça semble intéressant, après 15 secondes, on avance rapidement dans la vidéo. Après, 45 secondes, on pense à autre chose tout en se disant qu'il s'agit d'une pièce d'intérêt et qu'on devrait y revenir. On y reviendra jamais. Cette œuvre sombrera, en groupe, dans l'oubli glacial du fond des mers Internet. Tout ça en bonne partie parce que l'œuvre ne possède qu'<em>une seule chance de faire bonne impression</em>... Et que l'<em>Internet regorge d'occasions d'être présenté au mauvais moment</em>. </p>
+<p>Pour éviter ces écueils, il faut être le plus informatif possible dans les liens qui seront propagés (le temps requis pour chaque activité devrait suivre dans chaque partage FB, par exemple) et on doit rappeler notre existence ponctuellement, non pas en envoyant des courriels vides de sens autre que celui qu'on se souvienne de nous mais en créant de nouveaux contenus liés à l'actualité qu'on communique à nos usagers et qu'on invite à partager.</p>
+<p>Ce faisant, on renouvelle constamment la <mark>valeur</mark> à tirer de notre œuvre et on facilite l'adaptation aux avancées technologiques Web en y gardant les mains en empêchant à la matière informatique de stagner.</p>
+<hr />
+<h5 id="30012016-0717"><a name="user-content-30012016-0717" href="#30012016-0717" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>30.01.2016 <em>07:17</em></h5>
+<p><strong>[Réflexion]</strong> Il faut impliquer émotivement l'usager si on désire l'amener à interagir avec l'œuvre. Que ce soit à travers ses relations avec les autres usagers ou à travers les fonctionnalités de l'œuvre même, l'usager n'agira que s'il y perçoît une valeur ajoutée. C'est le rôle du créateur de générer les <mark>incitatifs</mark> et les informations nécessaires à l'utilisation par l'usager des fonctionnalités qui sont mise à sa disposition. Il doit se sentir impliqué. Que ses actions ont un impact. Qu'il apprendra à travers celles-ci. On doit aussi lui faciliter au maximum (sans aller trop loin... <a href="https://fr.wikipedia.org/wiki/Juste_milieu">juste milieu</a>) la transaction nécessaire à son gain, c'est-à-dire, par exemple, les étapes préparatoires à la discussion en direct (connexion, chargement, menus, bruit informatif, etc.). </p>
+<p>Ces désagréments minimes d'un point de vue physique acquièrent une importance capitale de l'intérieur du monde virtuel. Effectivement, la vitesse avec laquelle nous sommes habitués d'atteindre notre profit est telle que le moindre minuscule désagrément (quelques secondes d'attente, un clic de souris de trop, une animation dissonnante, etc.) peut stopper notre activité de suite. Le coût d'opportunité est <em>énorme</em> sur Internet. <strong>Nous pourrions toujours être ailleurs, partout.</strong> À la moindre petite gêne, nous tenterons alors notre fortune autre part, en effectuant des choix alternatifs de consommation virtuelle.</p>
+<p>Il sera conséquemment primordial de bien concevoir les transactions et de produire un contenu et des fonctionnalités qui sauront toucher subjectivement les usagers à travers leurs propres expériences, leur propre vie et ainsi les amèneront à s'impliquer dans l'œuvre.</p>
+<hr />
+<h5 id="03022016-915"><a name="user-content-03022016-915" href="#03022016-915" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>03.02.2016 <em>9:15</em></h5>
+<p><strong>[Activité — Démystification]</strong> Un article imagé, artistiquement dirigé, sur la notion de PIB. Ce qu'elle est ce qu'elle n'est pas. Évidemment, dans un langage subjectif...</p>
+<hr />
+<p><strong>[Activité — Question spontanée]</strong> si on vous assurerait votre bien-être, votre émancipation, mais que cette assurance requièrait la mise en place d'une dictature, seriez-vous prêt à laisser tomber la démocratie ?</p>
+<hr />
+<h5 id="06022016-555"><a name="user-content-06022016-555" href="#06022016-555" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>06.02.2016 <em>5:55</em></h5>
+<p><strong>[Fonctionnalité]</strong> Utiliser <a href="https://www.meteor.com/">Meteor</a> pour que les p'tits jeux soient en direct. P. ex. le surlignage dans l'article « débile » est en direct... ta page se surligne devant toi quand un autre participant surligne un passage jugé déficient.</p>
+<p>On dit qui est en ligne. On en profite. On interagit les uns avec les autres. Des questions ? Des signaux de ce que les autres font ? De leurs allégeances ? De leur profil ?</p>
+<p>Après avoir donné un exemple de ce qu'est le problème du <a href="https://fr.wikipedia.org/wiki/Passager_clandestin_(%C3%A9conomie)">resquilleur</a>, avec le <em>pet</em> mettons, on demande à l'usager de proposer un exemple semblable dans sa vie en général..?</p>
+<hr />
+<p><strong>[Activité — analyse]</strong> Une topographie de l'économie Internet. État actuel. Poissiblités. Propositions de réformes. Taxes de consommation. Liberté d'échange. Bien commun. Bien public. Efficacité de l'échange gratuit vs. services oligopolistiques (Spotify &amp; AppleMusic, Netflix &amp; CraveTV, etc.). Le consommateur paie plus, le distributeur engrange plus.</p>
+<hr />
+<h5 id="08022016-2213"><a name="user-content-08022016-2213" href="#08022016-2213" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>08.02.2016 <em>22:13</em></h5>
+<p><strong>[Impressions]</strong> Dada-data : intelligente utilisation d'extension chrome. À considérer. Mais malheureusement ce que j'ai rencontré n'était au final que des publicités pour leur site...</p>
+<hr />
+<h5 id="12022016-0945"><a name="user-content-12022016-0945" href="#12022016-0945" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>12.02.2016 <em>09:45</em></h5>
+<p><strong>[Impressions]</strong> Dada-data intègre le contenu de pages wikipedia mais pas les liens externes vers les définitions... tenter de les intégrer au sein de l'expérience... rapatrier. l'afficher dynamiquement. L'information sur les artistes est la bienvenue. Cela dit, on a pas envie de lire. La direction artistique est lourde et affecte négativement la lisibilité du contenu. Il aurait été intéressant de pouvoir accéder à ces informations de manière rapide dans un contexte épuré. J'ai plus envie de le lire sur Wikipedia... Donner les options de le faire peut-être ?</p>
+<p>Pas de vue d'ensemble! Il est difficile d'apprécier la progression faite dans l'expérience... Quels contenus n'avons-nous pas vus ? désorientant comme le dada, certes. mais peut-être qu'une vue plus claire de l'ensemble aurait pu être intégrée en arrière-plan...</p>
+<hr />
+<h5 id="12022016-1105"><a name="user-content-12022016-1105" href="#12022016-1105" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>12.02.2016 <em>11:05</em></h5>
+<p><strong>[Impressions]</strong> Je viens de recevoir le courriel pour le GAFA. C'est intéressant! Mais la direction artistique et la concenption graphique n'incitent pas à lire. La lisibilité est médiocre. Mais c'est beau... et ordinateur surchauffe !</p>
+<p>Pourquoi le téléphone avec la marionnette ? <br />
+Combien de temps ça a pris à développer ? <br />
+Qu'est-ce que ça ajoute ?</p>
+<p>Y a-t-il une question de « recherche &amp; développement » dans ce choix d'interface ?</p>
+<p><strong>Extension Chrome</strong> on aurait pu nous lancer ailleurs que sur le site. Nous propulser dans les méandres du Web dada. Jouer avec nous... C'eût été intéressant de me perdre...</p>
+<hr />
+<h5 id="13022016-1649"><a name="user-content-13022016-1649" href="#13022016-1649" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>13.02.2016 <em>16:49</em></h5>
+<p><strong>[Approche]</strong> J'essaie le plus possible de garder une configuration minimale (petits écrans, ordinateur de quelques années, moyenne gamme...) afin de créer des expériences qui soient adaptées au plus grand nombre d'appareils et donc accessibles au plus grand nombre d'usagers.</p>
+<hr />
+<h5 id="13022016-1854"><a name="user-content-13022016-1854" href="#13022016-1854" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>13.02.2016 <em>18:54</em></h5>
+<p><strong>[ Récompense — <em>poster (?)</em> ]</strong>  <strong>L'économie, n'est pas une FIN. C'est un moyen.</strong> Elle doit être soumise à un objectif politique, humain, social, personnel. Armez-vous de suspicion, et de distance lorsqu'on sollicite l'économie en soi. </p>
+<p>Bon pour l'économie... Ça veut dire bon pour qui ? pour quoi ?</p>
+<hr />
+<p><strong>[Flash : activité]</strong> <strong>Faire une activité qui demande qui a dit telle ou telle citation. Défier les préconceptions.</strong> On met dans la page des caricatures de la personne qui a dit ça. On met avec les cariactures le nom et une description... un p'tit module contextuel qui donne des infos complémentaires. On joue avec ça. Choix de réponses.</p>
+<p><del>En fait, faire des p'tits personnages de théoriciens. Et on pourrait laisser les gens les former en les présentant au départ. Première fois qu'on présnete un théoricien, l'utilisateur peut décider de ce q'il a l'air parmi tous les corps, membres, looks, et visages offerts. On ne donne pas la bonne réponse. Le personnage qui aura été formé sera celui qui suivra l'expérience. Milton Friedman pourrait ressembler à Karl Marx. Ces personnages peuvent revêtir un rôle d'animateur ou de guide momentané selon les situations dans l'expérience.</del></p>
+<hr />
+<h5 id="14022016-0801"><a name="user-content-14022016-0801" href="#14022016-0801" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>14.02.2016 <em>08:01</em></h5>
+<p><strong>[Technique]</strong> Créer une grille graphique qui soit adaptative mais sans contrainte de profondeur... Il est toujours complexe présentement, en utilisant les unités de pourcentages, de créer des grilles maîtresses en CSS. L'utilisation des unités « viewport » peut aider mais le problème réside alors dans l'incapacité de stopper l'adaptation des éléments à la taille de l'écran. Si on voulait, par exemple, donner une largeur maximale à notre produit Web, les unités viewport ne nous le permettraient pas. Cela devient problématique et impraticable pour plusieurs raisons.</p>
+<p>Mais peut-être alors pourrait-on fonder la grille sur l'unité « REM » qui elle est basée sur la hauteur de caractère par défaut du document. Ces dimensions de caractères peuvent, elles, être définies à l'aide de toute unité. Une unité « viewport » par exemple... Et si on définissait notre grosseur de caractère en « VW » et qu'à une certaine largeur d'écran on changeait la valeur de la propriété pour une unité fixe, telle que le pixel par exemple ?</p>
+<p>Peut-être serait-il alors possible de créer des grilles maîtresses, ayant une largeur maximale, et ne présentant pas le problème de l'imbrication des conteneurs comme c'Est le cas pour les unités de pourcentage.</p>
+<p>Tout ce qui provoque un recalcul de la composition graphique par le moteur de rendu est coûteux en termes de performance. Pour maximiser celle-ci et minimiser les possibilité de perdre l'usager... on doit utiliser les transformations vectorielles et les couleurs... les opacités</p>
+<hr />
+<h5 id="16022016-0655"><a name="user-content-16022016-0655" href="#16022016-0655" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>16.02.2016 <em>06:55</em></h5>
+<p><strong>[Piste]</strong> Inviter les usagers à introduire leurs niveaux personnels de paramètres donnés (préférences loisirs/travail capital/liquide tolérance au risque etc.) d'un modèle qui permettrait de suggérer des décisions à prendre en certaines situations pour maximiser son bien-être...</p>
+<hr />
+<p><strong>[Flash : activité]</strong> les questions à poser... les drapeaux à lever. (Baillargeon — auto-défense) ie : les retombées économiques FLAG !!! Question : à qui profitent ces retombées..? Ainsi de suite.</p>
+<p>Une animation (on en fait l'analyse économique selon les objectifs afin de trouver la style approprié... probablement cheap et naïf) : un bonhommme qui se promène et qui lance des roches dans les fenêtres de toutes bâtisses. Après, il va dire en qu'il a créé des jobs. On fait un montage de politiciens qui parle de créer des jobs.</p>
+<p><a href="http://en.wikipedia.org/wiki/Mechanism_design">Design de mécanismes</a></p>
+<p>Peut être intéressant pour designer des jeux où les participants révèlent leurs vraies préférences mettons.</p>
+<p>Une section sur la monnaie (comment on sait pas encore totalement c'est quoi. insister sur les querelles des « experts »). monnaie exogène vs. endogène... etc. <a href="http://www.forbes.com/sites/stevekeen/2015/02/28/what-is-money-and-how-is-it-created/1/">What is money ?</a></p></article></body></html>
